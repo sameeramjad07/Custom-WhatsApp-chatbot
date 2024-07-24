@@ -63,6 +63,3 @@ This project integrates a WhatsApp chatbot using `whatsapp-web.js` and a Python-
 
 Feel free to open issues or submit pull requests if you have suggestions or improvements.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
