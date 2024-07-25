@@ -43,13 +43,19 @@ This project integrates a WhatsApp chatbot using `whatsapp-web.js` and a Python-
 
     Ensure `chatbot.py` is in the same directory as `whatsapp.js`.
 
-5. **Run the WhatsApp bot:**
+5. **Obtain a Groq API key and edit chatbot.py and place it in the following line of code:**
+
+    ```bash
+    model = ChatGroq(model="llama3-8b-8192", api_key='YOUR_API_KEY_HERE')
+    ```
+
+6. **Run the WhatsApp bot:**
 
     ```bash
     node whatsapp.js
     ```
 
-6. **Scan the QR code:**
+7. **Scan the QR code:**
 
     - A QR code will be generated and displayed in the terminal.
     - Scan it using your WhatsApp mobile app to connect.
