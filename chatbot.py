@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from gtts import gTTS
 
-model = ChatGroq(model="llama3-8b-8192", api_key='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')
+model = ChatGroq(model="llama3-8b-8192", api_key='')
 
 template = ChatPromptTemplate.from_messages([("system", "Your name is BaatGPT. Use that to refer to yourself."), ("user", "{text}")])
 
